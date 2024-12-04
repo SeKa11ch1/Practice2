@@ -11,4 +11,4 @@ def countdown_to_saturday():
     return f"<h1>Днів до наступної суботи: {days_until_saturday}</h1>"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=8080)
